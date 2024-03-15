@@ -538,6 +538,45 @@ th {
   background-color: #333;
   color: white;
 }
+
+
+
+.previous-events {
+  text-align: center;
+  padding: 20px;
+}
+
+.previous-events h2 {
+  margin-bottom: 20px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.video {
+  margin: 10px;
+}
+
+.previous-events .heading {
+  margin-bottom: 30px;
+}
+
+
+.video iframe {
+  width: 560px; /* Adjust the width as needed */
+  height: 315px; /* Adjust the height as needed */
+}
+
+
+
+
+
+
+
 .partner {
   text-align: center;
   padding: 50px 0;
@@ -1884,6 +1923,39 @@ footer .logo-button {
 
   }
   
+
+
+  .previous-events {
+    padding: 5px;
+  }
+  
+  .previous-events h2 {
+    margin-bottom: 0px;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .video {
+    margin: 10px;
+  }
+  
+  .previous-events .heading {
+    margin-bottom: 15px;
+  }
+  .previous-events .heading h2{
+    font-size: medium;
+  }
+  
+  
+  .video iframe {
+    width: 300px; /* Adjust the width as needed */
+    height: 155px; /* Adjust the height as needed */
+  }
   .Organizer {
     padding: 1rem 4%;
   }
