@@ -18,6 +18,8 @@ document.onclick = () => {
     $(".home .content").removeClass("hide-content");
 };
 
+
+
 /*
 $(document).ready(function() {
     const contentDiv = $('.content');

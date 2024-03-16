@@ -589,6 +589,7 @@ th {
 .partner-list {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .partner-item {
@@ -596,8 +597,8 @@ th {
 }
 
 .partner-item img {
-  width: 330px; /* Set width for all images */
-  height: 250px; /* Set height for all images */
+  width: 280px; /* Set width for all images */
+  height: 180px; /* Set height for all images */
   object-fit: cover; /* Ensure images maintain aspect ratio and cover the specified dimensions */
   border-radius: 10px;
   margin-bottom: 10px;
@@ -619,6 +620,97 @@ th {
 .partner-btn:hover {
   background-color: #13867a;
 }
+/* CSS for the venu section */
+.venu {
+  text-align: center;
+}
+
+/* CSS for the heading */
+.venu .heading {
+  margin-bottom: 20px;
+}
+
+/* CSS for the map container */
+.venu .map-container {
+  margin: 0 auto;
+}
+
+/* CSS for the map */
+.venu .map-container iframe {
+  width: 100%;
+  max-width: 800px; /* Adjust max-width as needed */
+  height: 450px; /* Adjust height as needed */
+  margin-bottom: 10px;
+  margin-top: 80px;
+}
+
+/* CSS for the image carousel */
+.venu .venu-carousel {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* CSS for individual items in the carousel */
+.venu .venu-carousel .item {
+  width: 330px; /* Set width for all images */
+  height: 240px; /* Set height for all images */
+  object-fit: cover; /* Ensure images maintain aspect ratio and cover the specified dimensions */
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+
+}
+
+
+
+
+
+/* CSS for images within the carousel */
+.venu .venu-carousel img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.venu  p {
+  font-size: 2.2em; /* Adjust the font size as needed */
+  margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+
+
+
+/* CSS for the crisper applications section */
+.crisper-applications {
+  text-align: center;
+  margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+
+/* CSS for the content */
+.crisper-applications .content {
+  margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+
+/* CSS for the paragraph */
+.crisper-applications p {
+  font-size: 2.1em; /* Adjust the font size as needed */
+}
+
+/* CSS for the image container */
+.crisper-applications .image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* CSS for individual images */
+.crisper-applications .image-container img {
+  width: 30%; /* Adjust the width of images as needed */
+  margin: 0 10px; /* Add some horizontal margin for spacing */
+  margin-top: 10px;
+}
+
+
 
 .team-slider {
   text-align: center;
@@ -634,6 +726,7 @@ th {
 .team-carousel {
   display: flex; /* Display children side by side */
   justify-content: center;
+  flex-wrap: wrap;
 
   
 }
@@ -2615,8 +2708,50 @@ footer .logo-button {
     
   }
   
+  .venu .heading h2 {
+    font-size: medium; 
+ }
+  
+ .venu  p {
+  font-size: 1.2em; /* Adjust the font size as needed */
+  margin-bottom: 10px; /* Add some bottom margin for spacing */
+}
+.venu .venu-carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
 
 
+
+.venu .map-container {
+  margin: 0 auto;
+}
+
+/* CSS for the map */
+.venu .map-container iframe {
+  width: 100%;
+  max-width: 400px; /* Adjust max-width as needed */
+  height: 250px; /* Adjust height as needed */
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+
+
+/* CSS for individual items in the carousel */
+.venu .venu-carousel .item {
+  width: 330px; /* Set width for all images */
+  height: 240px; /* Set height for all images */
+  object-fit: cover; /* Ensure images maintain aspect ratio and cover the specified dimensions */
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+  margin-left: 20px;
+
+}
+ 
   .ag .heading {
     margin: 0rem;
   }
@@ -2839,6 +2974,15 @@ footer .logo-button {
       margin-right: 10px; /
     }
   
+
+
+    .crisper-applications .heading h2{
+      font-size: medium;
+    }
+    .crisper-applications p {
+      font-size: 1.1em; /* Adjust the font size as needed */
+    }
+
 }
 
 @media (max-width: 335px) {
@@ -3000,4 +3144,30 @@ footer .logo-button {
   font-size: 12px;
 
 }
+.venu .heading h2 {
+  font-size: medium; 
+}
+
+.venu  p {
+font-size: 1.2em; /* Adjust the font size as needed */
+margin-bottom: 10px; /* Add some bottom margin for spacing */
+
+}
+.crisper-applications .heading h2{
+  font-size: medium;
+}
+.crisper-applications p {
+  font-size: 1.1em; /* Adjust the font size as needed */
+}
+.crisper-applications .image-container {
+  display: flex;
+  flex-direction: column;
+}
+.crisper-applications .image-container img {
+  width: 80%; /* Adjust the width of images as needed */
+  margin: 0 10px; /* Add some horizontal margin for spacing */
+  margin-top: 10px;
+  margin-left: 15%;
+}
+
 }
