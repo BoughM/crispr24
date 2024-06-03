@@ -517,6 +517,15 @@ header .fa-bars {
  
 }
 
+.ag .table3 {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #8581e3;
+    background-color: #c8aef8;
+ 
+}
+
+
 table {
   border-collapse: collapse;
   width: 100%;
@@ -598,10 +607,11 @@ th {
 
 .partner-item img {
   width: 280px; /* Set width for all images */
-  height: 180px; /* Set height for all images */
-  object-fit: cover; /* Ensure images maintain aspect ratio and cover the specified dimensions */
+  height: 200px; /* Set height for all images */
+  object-fit: fill; /* Ensure images maintain aspect ratio and cover the specified dimensions */
   border-radius: 10px;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 
@@ -740,6 +750,7 @@ th {
   text-align: center;
   padding: 20px 15px 30px;
   background: #fff;
+  margin-top: 20px;
 
 }
 
@@ -1129,7 +1140,7 @@ th {
 .our-team .pic {
   background: #fff;
   padding: 5px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   display: inline-block;
   width: auto;
   height: auto;
@@ -1669,7 +1680,7 @@ footer .logo-button {
   .our-team .pic {
     background: #fff;
     padding: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     display: inline-block;
     width: auto;
     height: auto;
@@ -2268,7 +2279,7 @@ footer .logo-button {
   .our-team .pic {
     background: #fff;
     padding: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     display: inline-block;
     width: auto;
     height: auto;
@@ -2893,7 +2904,7 @@ footer .logo-button {
   .our-team .pic {
     background: #fff;
     padding: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     display: inline-block;
     width: auto;
     height: auto;
@@ -3029,6 +3040,21 @@ footer .logo-button {
   }
   
 
+  .home .content h3 {
+    font-size: 1rem;
+  }
+  
+  .home .content h2 {
+    font-size: 0.8rem;
+    margin-top: 1%;
+  
+  }
+  
+  .home .content h1 {
+    font-size: 0.6rem;
+ 
+  }
+  
   .workshop .icon {
     margin-right: 5px;
      margin-left: 5px;
@@ -3075,18 +3101,34 @@ footer .logo-button {
     text-align: center;
     padding: 10px 5px 15px;
     margin-bottom: 10px;
+    margin-top: 10px;
+
   
   }
   
   .our-team .pic {
     background: #fff;
     padding: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     display: inline-block;
     width: auto;
     height: auto;
     transition: all 0.5s ease 0s;
+    
   }
+  .our-team .social li a {
+    border-radius: 50%;
+    font-size: 10px;
+    width: 18px;
+    height: 18px;
+    line-height: 10px;
+    transition: all 0.5s ease 0s;
+  }
+  
+
+  /* =================================================================*/
+  
+
   
   
 
