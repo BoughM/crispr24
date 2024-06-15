@@ -16,7 +16,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #edecf8;
+  background-color: #ffffff;
   display: initial;
   width: 100%;
   font-family: tahoma;
@@ -116,13 +116,13 @@ header {
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  background: rgba(36, 34, 40, 0.6);
+  background: rgba(253, 253, 253, 0.986);
   z-index: 1001;
 }
 
 header .logo {
-  font-size: 3.5rem;
-  color: var(--min-color);
+  font-size: 2.5rem;
+  color:rgba(238, 4, 74, 0.6);
   padding: 0.4rem;
 }
 
@@ -130,8 +130,8 @@ header .logo {
 
 header .navbar a {
   margin: 0 0.8rem;
-  font-size: 1.9rem;
-  color: var(--min-color);
+  font-size: 2.1rem;
+  color:rgba(238, 4, 74, 0.6);
   padding: 0.4rem;
 }
 
@@ -142,7 +142,7 @@ header .fa-bars:hover {
 
 header .fa-bars {
   font-size: 2.8rem;
-  color: var(--min-color);
+  color:rgba(238, 4, 74, 0.6);
   cursor: pointer;
   display: none;
 }
@@ -152,7 +152,7 @@ header .fa-bars {
 
 .home {
   text-align: center;
-   background: url(../images/genem.jpg);   
+   background: url(../images/chotmariem.png);   
   /* background: url(https://www.genscript.com/gsimgs/banner/topbanner-crispr-services-overview.jpg);*/
   background-position: auto;
   background-repeat: no-repeat;
@@ -170,8 +170,8 @@ header .fa-bars {
 
 .home .content {
   position: absolute;
-  top: 40%;
-  left: 20%;
+  top: 60%;
+  left: 10%;
   transform: translate(-50%, -50%);
   color: var(--min-color);
   text-align: center;
@@ -218,16 +218,47 @@ header .fa-bars {
 .workshop {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin: 40px 0;
   flex-direction: column;
 }
 
+.workshop p {
+  font-size: 2rem;
+  margin: 1rem 0;
+} 
+.workshop h1 {
+  font-size: 4rem;
+}
+
+.workshop h2 {
+
+  font-size: 3rem;
+}
+
+.workshop h3 {
+font-size: 2.7rem;
+margin-top: 10px;
+margin-bottom: 10px;
+} 
+
+.workshop h4 {
+  font-size: 1.8rem;
+}
+
+.workshop h5 {
+  font-size: 1.6rem;
+}
 .workshop .icons {
   display: flex;
   justify-content: center;
   margin-top: 25px;
 }
+
+.workshop li {
+  font-size: medium;
+  margin-bottom: 10px;
+}
+
 
 .workshop .icon {
   margin-right: 100px;
@@ -270,13 +301,6 @@ header .fa-bars {
 
 
 
-.workshop .content p {
-  flex: 1;
-  font-size: 28px;
-  line-height: 1.6;
-  text-align: center;
-  color: rgb(11, 11, 49);
-}
 
 
 /* Call for paper section */
@@ -941,15 +965,13 @@ th {
   }
 
   header .navbar.active {
-    top: 5.5rem;
+    top: 2.5rem;
   }
 
   header .navbar a {
     display: block;
-    margin: 0.3rem 0;
     padding: 1rem;
     font-size: 1.6rem;
-    color: var(--min-color);
   }
 
   header .navbar a:hover {
@@ -1326,7 +1348,7 @@ footer .logo-button {
   }
 
   header .navbar.active {
-    top: 6rem;
+    top: 4rem;
   }
 
   header .navbar a {
@@ -1334,7 +1356,6 @@ footer .logo-button {
     margin: 0.3rem 0;
     padding: 1rem;
     font-size: 1.3rem;
-    color: var(--min-color);
   }
 
   header .navbar a:hover {
@@ -1343,7 +1364,6 @@ footer .logo-button {
 
   header .logo {
     font-size: 2.5rem;
-    color: var(--min-color);
     padding: 0.3rem;
   }
 
@@ -1803,7 +1823,6 @@ footer .logo-button {
     margin: 0.3rem 0;
     padding: 1rem;
     font-size: 1.3rem;
-    color: var(--min-color);
   }
 
 
@@ -2418,7 +2437,6 @@ footer .logo-button {
     margin: 0.3rem 0;
     padding: 1rem;
     font-size: 1.3rem;
-    color: var(--min-color);
   }
 
 
@@ -3197,7 +3215,6 @@ footer .logo-button {
 .workshop .icon {
   margin-right: 5px;
    margin-left: 5px;
-  text-align: center;
 }
 .workshop .icon img {
   width: 40%;
@@ -3205,16 +3222,37 @@ footer .logo-button {
   object-fit: cover; 
 }
 
-.workshop .icon p {
-  margin-top: 10px;
-  text-align: center;
-  font-size: 10px;
+.workshop p {
+  font-size: 1rem;
+  margin: 1rem 0;
+} 
+.workshop h1 {
+  font-size: 3rem;
 }
 
-.workshop .icon p {
-  margin-top: 12px;
-  text-align: center;
-  font-size: 12px;
+.workshop h2 {
+
+  font-size: 2rem;
+}
+
+.workshop h3 {
+font-size: 1.8rem;
+margin-top: 10px;
+margin-bottom: 10px;
+} 
+
+.workshop h4 {
+  font-size: 1.2rem;
+}
+
+.workshop h5 {
+  font-size: 1rem;
+}
+
+
+.workshop li {
+  font-size: small;
+  margin-bottom: 10px;
 }
 
 .workshop .icon .btn {
