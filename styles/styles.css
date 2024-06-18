@@ -1864,7 +1864,6 @@ footer .logo-button {
 .home {
   flex-wrap: wrap;
   text-align: center;
-  background-size: 100% 100%;
   max-width: 100%;
   padding: 0 5%;
  min-height: 20vh;
@@ -1944,6 +1943,33 @@ footer .logo-button {
   font-size: 12px;
 
 }
+
+.workshop p {
+  font-size: 1.6rem;
+} 
+.workshop h1 {
+  font-size: 3.5rem;
+}
+
+.workshop h2 {
+
+  font-size: 2.5rem;
+}
+
+.workshop h3 {
+font-size: 2.2rem;
+margin-top: 5px;
+margin-bottom: 5px;
+} 
+
+.workshop h4 {
+  font-size: 1.2rem;
+}
+
+.workshop h5 {
+  font-size: 1.1rem;
+}
+
   .CFP {
     display: flex;
     flex-direction: column;
@@ -2518,9 +2544,6 @@ footer .logo-button {
 
 
 
-.workshop {
-  margin: 2px 0;
-}
 
 
 .workshop .content p{
@@ -2558,7 +2581,33 @@ footer .logo-button {
   font-size: 12px;
 
 }
-  .CFP {
+.workshop p {
+  font-size: 1.2rem;
+} 
+.workshop h1 {
+  font-size: 3rem;
+}
+
+.workshop h2 {
+
+  font-size: 2rem;
+}
+
+.workshop h3 {
+font-size: 1.7rem;
+margin-top: 1px;
+margin-bottom: 1px;
+} 
+
+.workshop h4 {
+  font-size: 1.2rem;
+}
+
+.workshop h5 {
+  font-size: 0.6rem;
+}
+
+.CFP {
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -3251,7 +3300,7 @@ margin-bottom: 10px;
 
 
 .workshop li {
-  font-size: small;
+  font-size: ;
   margin-bottom: 10px;
 }
 
