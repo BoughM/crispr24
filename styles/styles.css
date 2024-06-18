@@ -3288,6 +3288,7 @@ margin-bottom: 1px;
 font-size: 1.8rem;
 margin-top: 10px;
 margin-bottom: 10px;
+text-align: left;
 } 
 
 .workshop h4 {
@@ -3300,8 +3301,10 @@ margin-bottom: 10px;
 
 
 .workshop li {
-  font-size: ;
+  font-size: 1rem;
   margin-bottom: 10px;
+  text-align: left;
+  margin-left: 12px;
 }
 
 .workshop .icon .btn {
