@@ -630,7 +630,7 @@ th {
 }
 
 .partner-item img {
-  width: 280px; /* Set width for all images */
+  width: 260px; /* Set width for all images */
   height: 200px; /* Set height for all images */
   object-fit: fill; /* Ensure images maintain aspect ratio and cover the specified dimensions */
   border-radius: 10px;
